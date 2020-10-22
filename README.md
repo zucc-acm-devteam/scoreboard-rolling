@@ -1,5 +1,8 @@
 # scoreboard-rolling
 
+# 使用方法
+将运行 [scoreboard-rolling-backend](https://github.com/Jiubei0408/scoreboard-rolling-backend) 后获得的data.json文件放入public文件夹
+
 ## Project setup
 ```
 npm install
