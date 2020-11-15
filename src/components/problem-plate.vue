@@ -10,6 +10,7 @@
           {{ problem.judged_list.length + ' + ' + problem.pending_list.length }}
         </span>
         <span v-if="problem.solved"> ({{ problem.penalty }})</span>
+        <span v-if="!problem.pending && problem.judged_list.length !== 1"> (-{{ problem.judged_list.length - 1 }})</span>
       </template>
     </div>
   </div>
