@@ -52,7 +52,7 @@ export default {
 
 <style>
 .team-list-move {
-  transition: transform ease-in 1s;
+  transition: transform ease-in-out 1.5s;
 }
 
 html, body {
