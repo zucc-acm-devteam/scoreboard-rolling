@@ -62,7 +62,7 @@ export default {
 }
 
 .pending {
-  background-color: lightblue;
+  background-color: skyblue;
   cursor: pointer;
 }
 
